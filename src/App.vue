@@ -1,26 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Transition />
+    <hr>
+    <modal-aula></modal-aula>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Transition from './components/Transition.vue'
+import ModalAula from './components/ModalAula.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Transition,
+    ModalAula
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
