@@ -3,7 +3,7 @@
 ### Desafio:
 
 #### Crie um modal e anime a entrada/saída do mesmo. Utilize um botão para controlar se o modal aparece ou some da tela.
-```
+
 
 ## Project setup
 ```
